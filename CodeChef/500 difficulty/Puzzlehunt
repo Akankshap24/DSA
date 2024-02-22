@@ -1,0 +1,8 @@
+def is_eligible_team(N):
+    if 6 <= N <= 8:
+        return "Yes"
+    else:
+        return "No"
+
+N = int(input())
+print(is_eligible_team(N))

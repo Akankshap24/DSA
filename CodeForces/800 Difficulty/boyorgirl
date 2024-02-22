@@ -1,0 +1,8 @@
+def determine_gender(n):
+    distinct_characters = set(n)
+    if len(distinct_characters) % 2 == 0:
+        return "CHAT WITH HER!"
+    else:
+        return "IGNORE HIM!"
+n = input().strip()
+print(determine_gender(n))

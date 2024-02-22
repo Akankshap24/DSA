@@ -1,0 +1,6 @@
+x, y = input().split()
+x = int(x)
+y = int(y)
+unattempted = x - y
+print(unattempted)
+

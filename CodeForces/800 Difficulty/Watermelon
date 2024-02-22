@@ -1,0 +1,7 @@
+def divide_watermelon_evenly(w):
+    if w % 2 == 0 and w > 2:
+        return "YES"
+    else:
+        return "NO"
+w = int(input().strip())
+print(divide_watermelon_evenly(w))

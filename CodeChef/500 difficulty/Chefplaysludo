@@ -1,0 +1,9 @@
+def can_enter_token(x):
+    if x == 6:
+        return "YES"
+    else:
+        return "NO"
+t = int(input().strip())
+for _ in range(t):
+    x = int(input().strip())  
+    print(can_enter_token(x))

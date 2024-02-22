@@ -1,0 +1,9 @@
+A = int(input())
+for _ in range(A):
+ X,Y = input().split()
+ X = int(X)
+ Y = int(Y)
+ if X>Y:
+  print(1)
+ else:
+  print(0)

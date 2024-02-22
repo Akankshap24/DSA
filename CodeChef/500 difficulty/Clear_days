@@ -1,0 +1,5 @@
+X,Y = input().split()
+X = int(X)
+Y = int(Y)
+clear_days = 7-(X+Y)
+print(clear_days)

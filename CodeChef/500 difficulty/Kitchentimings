@@ -1,0 +1,13 @@
+t = int(input().strip())
+
+for _ in range(t):
+    x, y = input().split()
+    x = int(x)
+    y = int(y)
+    
+    if y > x:
+        hours_worked = y - x
+    else:
+        hours_worked = (y + 12) - x
+    
+    print(hours_worked)

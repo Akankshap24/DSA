@@ -1,0 +1,20 @@
+def can_make_equal(n, containers):
+    total_water = sum(containers)
+    if total_water % n != 0:
+        return "NO"
+
+    target_water = total_water // n
+    excess_water = 0
+    for i in range(n):
+        excess_water += containers[i] - target_water
+        if excess_water < 0:
+            return "NO"
+
+    return "YES"
+
+t = int(input())
+
+for _ in range(t):
+    n = int(input())
+    containers = list(map(int, input().split()))
+    print(can_make_equal(n, containers))

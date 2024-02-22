@@ -1,0 +1,8 @@
+def qualified(total_points):
+    if total_points>=12:
+        return "Yes"
+    else:
+        return "No"
+total_points = int(input())
+result = qualified(total_points)
+print(result) 

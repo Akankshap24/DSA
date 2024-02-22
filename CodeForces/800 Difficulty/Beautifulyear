@@ -1,0 +1,10 @@
+def has_distinct_digits(year):
+    return len(set(str(year))) == len(str(year))
+
+y = int(input())
+
+while True:
+    y += 1
+    if has_distinct_digits(y):
+        print(y)
+        break

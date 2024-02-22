@@ -1,0 +1,7 @@
+# n = int(input().strip())
+# problems_solved = 0
+# for _ in range(n):
+#     petya, vasya, tonya = [int(x) for x in input().split()]
+#     if petya + vasya + tonya >= 2:
+#         problems_solved += 1
+# print(problems_solved)
