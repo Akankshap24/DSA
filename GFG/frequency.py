@@ -4,4 +4,4 @@ class Solution:
         for element in arr:
             if element == x:
                 count += 1
-        return count 
+        return count  
