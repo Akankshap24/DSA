@@ -25,7 +25,7 @@ x = 10
 result = binary_search(arr, x)
 
 if result != -1:
-    print("ELement present at index", str(result))
+    print("Element present at index", str(result))
 else: 
     print("Element absent")
 
