@@ -28,3 +28,4 @@ if two_sum(arr, target):
 else:
     print(False)
 
+# Time Complexity - O(n^2) and Space = O(1)
