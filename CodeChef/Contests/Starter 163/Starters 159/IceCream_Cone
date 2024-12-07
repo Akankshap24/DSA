@@ -1,0 +1,5 @@
+https://www.codechef.com/problems/ICECONE
+
+X , Y = map(int, input().split())
+result= min(X,Y)
+print(result)
