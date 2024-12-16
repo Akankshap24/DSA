@@ -1,4 +1,4 @@
-
+https://www.codechef.com/problems/AICOM
 
 X=int(input())
 if X<=60:
