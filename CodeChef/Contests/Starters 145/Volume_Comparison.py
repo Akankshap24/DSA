@@ -1,3 +1,5 @@
+https://www.codechef.com/problems/CABLE
+
 def volume(A, B, C, X):
     v_cuboid = A * B * C
     v_cube = X ** 3
