@@ -1,3 +1,5 @@
+https://www.codechef.com/START140D/problems/YOGACLASS
+
 T = int(input())
 
 for _ in range(T):
