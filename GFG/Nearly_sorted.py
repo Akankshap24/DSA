@@ -17,3 +17,6 @@ class Solution:
             index += 1
         
         return arr
+    
+
+print(Solution().nearlySorted([6, 5, 3, 2, 8, 10, 9], 3))
