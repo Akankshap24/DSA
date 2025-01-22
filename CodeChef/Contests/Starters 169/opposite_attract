@@ -1,0 +1,13 @@
+https://www.codechef.com/START169D/problems/P2169
+
+T = int(input())
+for _ in range(T):
+    N = int(input())
+    S = input()
+    T = ""
+    for char in S:
+        if char == "0":
+            T += '1'
+        else:
+            T += '0'
+    print(T)
