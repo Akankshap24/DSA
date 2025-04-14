@@ -1,4 +1,4 @@
-def binary_search(arr,x):
+def binarySearch(arr,x):
     low = 0
     high = len(arr) - 1
     mid = 0
