@@ -2,13 +2,13 @@ class Solution:
     def fib(self, n: int) -> int:
         memo = {}
         
-        def fibon(n):
+        def fibonacci(n):
             if n <= 1:
                 return n
             if n not in memo:
-                memo[n] = fibon(n-1) + fibon(n-2)
+                memo[n] = fibonacci(n-1) + fibonacci(n-2)
             return memo[n]
         
-        return fibon(n)
+        return fibonacci(n)
 
     
