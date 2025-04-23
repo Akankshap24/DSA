@@ -3,5 +3,5 @@ for i in range(A):
  X,Y = input().split()
  X = int(X)
  Y = int(Y)
- total_amount = X*Y
- print(total_amount)
+ total_am = X*Y
+ print(total_am)
