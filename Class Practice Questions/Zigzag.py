@@ -1,16 +1,16 @@
 class Solution:
-    def con(self, s: str, numRows: int) -> str:
-        if numRows == 1 or numRows >= len(s):
+    def con(self, s: str, nRows: int) -> str:
+        if nRows == 1 or nRows >= len(s):
             return s
 
-        rows = [''] * numRows
+        rows = [''] * nRows
         i, step = 0, 1
 
         for char in s:
             rows[i] += char
             if i == 0:
                 step = 1
-            elif i == numRows - 1:
+            elif i == nRows - 1:
                 step = -1
             i += step
 
