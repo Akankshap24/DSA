@@ -6,7 +6,7 @@ tree_map = SortedDict()
 #Add key Value Pairs
 tree_map['a'] = 1
 tree_map['b'] = 3
-print(tree_map)  # Output = SortedDict({'a': 1, 'b': 3}
+print(tree_map)  
 
 # Accessing a value by key
 value = tree_map['b']
