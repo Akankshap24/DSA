@@ -17,7 +17,6 @@ tree_map.pop('b')
 print(tree_map) # Output = SortedDict({'a': 1})
 
 # Iterating through the map
-# Key
 for key in tree_map.keys():
     print(key) # Output = a 
 
