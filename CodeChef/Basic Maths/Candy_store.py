@@ -1,4 +1,4 @@
-# Store: Calculate total earnings based on chocolates sold and Chef's daily goal
+#Basic maths# Store: Calculate total earnings based on chocolates sold and Chef's daily goal
 
 t = int(input())
 
