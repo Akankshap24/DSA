@@ -1,8 +1,8 @@
 def can_enter_token(x):
     if x == 6:
-        return "YES"
+        return "Yes"
     else:
-        return "NO"
+        return "No"
 t = int(input().strip())
 for _ in range(t):
     x = int(input().strip())  
