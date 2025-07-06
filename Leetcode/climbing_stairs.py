@@ -1,5 +1,13 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        if n <= 1:
-            return 1
-        return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        memo = {}
+        def dp(k):
+            if k <= 1:
+                return 1
+            if k not in memo:
+                memo[k] = dp(k - 1) + dp(k - 2)
+            return memo[k]
+        return dp(n)
+
+        
+
