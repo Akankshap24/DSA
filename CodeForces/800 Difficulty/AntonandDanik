@@ -9,4 +9,4 @@ if anton_wins > danik_wins:
 elif danik_wins > anton_wins:
     print("Danik")
 else:
-    print("Friendship")
+    print("Friendship") 
