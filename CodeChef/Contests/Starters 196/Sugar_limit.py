@@ -13,8 +13,8 @@ for _ in range(T):
             if s[i] <= limit and t[i] > 0:
                 total += t[i]
         h = total - limit
-        if h > best:
-            best = h
+        if h > b:
+            b = h
 
-    print(best)
+    print(b)
 
