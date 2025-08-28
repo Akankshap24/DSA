@@ -1,7 +1,7 @@
 class MyHashMap:
 
     def __init__(self):
-        self.capacity = 1000  # Initial capacity
+        self.capacity = 1000  
         self.data = [[] for _ in range(self.capacity)]
 
     def _hash(self, key: int) -> int:
