@@ -1,3 +1,5 @@
+#Longest Consecutive Sequence 
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         num_set = set(nums)
