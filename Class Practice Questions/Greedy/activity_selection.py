@@ -1,4 +1,4 @@
-
+## Greedy algorith
 def activity_selection_greedy(activities):
     activities.sort(key=lambda x: x[1])
     end = 0
