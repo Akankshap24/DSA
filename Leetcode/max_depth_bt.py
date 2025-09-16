@@ -1,3 +1,4 @@
+# Max Depth binary tree
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
