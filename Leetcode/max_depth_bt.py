@@ -1,4 +1,5 @@
 # Max Depth binary tree
+# https://leetcode.com/problems/maximum-depth-of-binary-tree/
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if not root:
