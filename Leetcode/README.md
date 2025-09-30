@@ -1,2 +1,3 @@
 ## Solving Questions daily. 
-### Easy level questions 
+### Easy level questions. 
+### Medium level questions.
