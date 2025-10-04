@@ -1,3 +1,5 @@
+#intersection of two arrays
+#https://leetcode.com/problems/intersection-of-two-arrays/description/
 class Solution:
     def inter(self, nums1: List[int], nums2: List[int]) -> List[int]:
         set1 = set(nums1)
