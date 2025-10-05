@@ -1,3 +1,5 @@
+# 55. Jump Game
+# https://leetcode.com/problems/jump-game/
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         farthest = 0
