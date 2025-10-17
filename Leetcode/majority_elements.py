@@ -1,4 +1,5 @@
 #Majority Element
+# Given an array of size n, find the majority element.
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         count = 0
