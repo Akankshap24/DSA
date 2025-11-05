@@ -1,3 +1,5 @@
+# Definition for a binary tree node.
+# https://leetcode.com/problems/binary-tree-path-sum/
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         if not root:
