@@ -1,3 +1,5 @@
+## File: Leetcode/generate_parenthesis.py
+## https://leetcode.com/problems/generate-parentheses/
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
