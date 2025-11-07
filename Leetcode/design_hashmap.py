@@ -1,3 +1,5 @@
+# Design a HashMap without using any built-in hash table libraries.
+# https://leetcode.com/problems/design-hashmap/
 class MyHashMap:
 
     def __init__(self):
