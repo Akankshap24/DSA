@@ -1,4 +1,5 @@
-#Linked list 
+#Linked list Cycle
+#https://leetcode.com/problems/linked-list-cycle/
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow = fast = head
