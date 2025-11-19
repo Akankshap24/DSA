@@ -1,3 +1,5 @@
+# Definition for a binary tree node.
+#https://leetcode.com/problems/balanced-binary-tree/
 class Solution:
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def check(node):
