@@ -1,3 +1,4 @@
+# https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1
 class Solution:
     def countPair (self, k, arr) : 
         left = 0
